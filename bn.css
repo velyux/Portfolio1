@@ -56,7 +56,7 @@ header .top:hover{background: rgb(255, 255, 255);
 header .top:hover span{color:rgb(21, 28, 117)}  
 header .top:hover .inner .gnb .gnbsuball{
     height: 250px;
-    background: #f1f1f3;
+    background: rgba(241, 241, 243,0.7);
     box-shadow: 0 3px 5px rgba(0,0,0, 0.1);
     transition: height 0.5s;
 }
@@ -76,7 +76,7 @@ header .top:hover .inner .gnb .gnbsuball{
     width: 720px;
     position: relative;
 }
-.gnbsuball > ul > li{width: 178px;
+.gnbsuball > ul > li{width: 178px;color: #000;font-weight: bold;
 border-left: 1px solid rgba(0,0,0,0.05);}
 .gnbsuball > ul > li:last-child{
     border-right: 1px solid rgba(0,0,0,0.05);
@@ -433,5 +433,6 @@ footer span{color: #fff;
 .last span:hover{color: rgb(54, 53, 53);
                 border: #797c7a;
                 background-color: #797c7a;}
+.last img{width: 74px; height: 54px;}                
 
           

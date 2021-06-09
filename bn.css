@@ -12,7 +12,8 @@
     font-family: 'Roboto', sans-serif;
 }
 .inner{width: 1200px;
-      margin: 0 auto;}
+      margin: 0 auto;
+        overflow:hidden;}
 
 ul, li{list-style: none;}
 
@@ -211,7 +212,7 @@ height: 30px;}
 .art1 .slide.s01{
    
 
-    background: url(/imgs/2019.PNG)no-repeat;
+    background: url(imgs/2019.PNG)no-repeat;
      
     
 }
@@ -275,7 +276,8 @@ height: 30px;}
           height: 700px;
           text-align: center;
           background-color: rgb(197, 208, 214);
-         position: relative;}  
+         position: relative;
+        overflow: hidden;}  
 .section4>div>h1{
                 padding-top: 50px;
                  font-size: 3.2rem;
@@ -283,8 +285,10 @@ height: 30px;}
                  position: absolute; width: 100%; text-align: right;
                  right:-40%; top: 0;
                  transition: all 2s ease-out;
+                 opacity: 0;
                 }  
-.section4:hover h1{right: 36%;}
+.section4:hover h1{right: 36%;
+    opacity: 1;}
 .ridius{display: flex;
         flex-direction: row;
         justify-content: space-around;

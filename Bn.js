@@ -125,19 +125,38 @@ function closePopup() {
   popup.classList.add('hide');
 }
 
-// function showPopup2(hasFilter) {
-// 	const popup = document.querySelector('#camp');
-  
-//   if (hasFilter) {
-//   	popup.classList.add('has-filter');
-//   } else {
-//   	popup.classList.remove('has-filter');
-//   }
-  
-//   popup.classList.remove('hide');
-// }
 
-// function closePopup() {
-// 	const popup = document.querySelector('#camp');
-//   popup.classList.add('hide');
-// }
+
+function showPopup2(hasFilter) {
+	const popup = document.querySelector('#mw_temp');
+  
+  if (hasFilter) {
+  	popup.classList.add('has-filter');
+  } else {
+  	popup.classList.remove('has-filter');
+  }
+  
+  popup.classList.remove('mw');
+}
+
+function closeMw_temp() {
+	const popup = document.querySelector('#mw_temp');
+  popup.classList.add('mw');
+}
+
+function showPopup3(hasFilter) {
+	const popup = document.querySelector('#mw_camp');
+  
+  if (hasFilter) {
+  	popup.classList.add('has-filter');
+  } else {
+  	popup.classList.remove('has-filter');
+  }
+  
+  popup.classList.remove('mw');
+}
+
+function closeMw_camp() {
+	const popup = document.querySelector('#mw_camp');
+  popup.classList.add('mw');
+}

@@ -197,12 +197,13 @@
       data-aos-easing="linear"
       data-aos-duration="1500">
         <div class="elips i02"></div>
-       <button  type="button" onClick="document.getElementById('mw_temp').style.display='block'">CRAFT<br>공예페어</button> 
+       <button  onclick="showPopup2(false)">CRAFT<br>공예페어</button> 
       </div>
+
         <div data-aos="fade-up"
         data-aos-duration="3000">
             <div class="elips i03"></div>
-           <button type="button" onClick="document.getElementById('mw_camp').style.display='block'">CAMP<br>크래프트 캠프</button> 
+           <button  onclick="showPopup3(false)">CAMP<br>크래프트 캠프</button> 
         </div>
            
        </div>
@@ -234,7 +235,7 @@
       </div>
   
       <div id="mw_temp" class="mw">
-          <div class="bg"></div>
+          <!-- <div class="bg"></div> -->
         <div class="content fg">
            <div>
                <h1>Craft Fair News</h1>
@@ -257,14 +258,14 @@
 
 
 
-          <button onclick="document.getElementById('mw_temp').style.display='none'" type="button">
+          <button onclick="closeMw_temp()">
             Close
             </button>
         </div>
       </div>
       
       <div id="mw_camp" class="mw">
-        <div class="bg"></div>
+       
       <div class="content fg" >
          <div>
              <h1>Craft Camp News</h1>
@@ -285,7 +286,7 @@
 
 
 
-        <button onclick="document.getElementById('mw_camp').style.display='none'" type="button">
+        <button onclick="closeMw_camp()">
           Close
           </button>
       </div>

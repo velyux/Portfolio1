@@ -329,7 +329,7 @@ height: 30px;}
 
 
 
-    #popup {
+    #popup,#mw_temp,#mw_camp {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -346,13 +346,21 @@ height: 30px;}
       #popup.hide {
         display: none;
       }
+      #mw_temp.mw{display: none;}
+      #mw_camp.mw{display: none;}
       
       #popup.has-filter {
         backdrop-filter: blur(3px);
         -webkit-backdrop-filter: blur(3px);
       }
+      #mw_temp{backdrop-filter: blur(3px);
+        -webkit-backdrop-filter: blur(3px);}
+
+        #mw_camp{backdrop-filter: blur(3px);
+            -webkit-backdrop-filter: blur(3px);}
+
       
-      #popup .content {
+     .content {
           width: 80%;
           height: 600px;
       
@@ -363,29 +371,30 @@ height: 30px;}
        
 
       }
-      #popup .content p{text-align: center;
+     .content p{text-align: center;
                         font-size: 1rem;
                         padding: 0 30px 30px 30px;
                        }
-#popup .content>div:nth-child(1){width: 100%;height: 100px;
+ .content>div:nth-child(1){width: 100%;height: 100px;
                                 background-color: #bac3cf;
                             line-height: 100px;}
 
-      #popup button{background-color: #fff;
+      .content button{background-color: #fff;
                     text-align: center;
                   border-radius: 5px;
                   font-size: 1.2rem;
                   padding: 10px;
                 cursor: pointer;}
-     #popup button:hover{box-shadow: 3px 4px 1px #797c7a;
+
+     .content button:hover{box-shadow: 3px 4px 1px #797c7a;
                         color: #929693;}             
                     
-       #popup .content .rap {display: flex;
+        .content .rap {display: flex;
                             flex-direction: row;
                             justify-content:space-between;
                             padding: 50px;
                          }    
-#popup .content .rap .art{width:30%;
+ .content .rap .art{width:30%;
                         height: 199px;
                        border-radius: 10px;}                                    
     .rap>.bg01{background: url(imgs/t-1.PNG)center no-repeat;}             
@@ -394,63 +403,30 @@ height: 30px;}
    
 
 
-#popup .content .rap>img{width: 33%;}      
-           
 
-.mw {position:fixed;
-    _position:absolute;
-    top:0;left:0;width:100%;height:100%;
-    display:none;
-    
-}
-    
-.mw .bg {
-    position:absolute;
-    top:0;left:0;
-    width:100%;height:100%;
-    background:#000;
-    opacity:.5
-    ;filter:alpha(opacity=60)}
-
-.mw .fg {
-    position:absolute;
- 
-    top:12%; left: 9%;
-    width:80%;
-    height:600px; 
-    border-radius: 5px;
-   background-color: #fff;
-    }
 
 .mw .content>div:nth-child(1){width: 100%;height: 100px;background-color: #bac3cf;
                              text-align: center; line-height: 100px;}
 
-.mw .fg .rap>.bg04{background: url(imgs/t2-1.PNG) center no-repeat;}                             
-.mw .fg .rap>.bg05{background: url(imgs/t2-2.PNG) center no-repeat;}                             
-.mw .fg .rap>.bg06{background: url(imgs/t2-3.PNG) center no-repeat;} 
+.rap>.bg04{background: url(imgs/t2-1.PNG) center no-repeat;}                             
+.rap>.bg05{background: url(imgs/t2-2.PNG) center no-repeat;}                             
+.rap>.bg06{background: url(imgs/t2-3.PNG) center no-repeat;} 
 
-.mw .fg .rap>.bg07{background: url(imgs/t3-1.PNG) center no-repeat;} 
-.mw .fg .rap>.bg08{background: url(imgs/t3-2.PNG) center no-repeat;} 
-.mw .fg .rap>.bg09{background: url(imgs/t3-3.png) center no-repeat;} 
+.rap>.bg07{background: url(imgs/t3-1.PNG) center no-repeat;} 
+.rap>.bg08{background: url(imgs/t3-2.PNG) center no-repeat;} 
+.rap>.bg09{background: url(imgs/t3-3.png) center no-repeat;} 
 
-.mw .content .rap {display: flex; flex-direction: row; justify-content: space-between;padding: 50px;}
-.mw .content .rap .art{width:30%;
-    height: 199px;
-   border-radius: 10px;} 
-.mw .fg p{ padding: 0 30px 30px 30px;}   
-.mw .fg button{font-size: 1.2rem;
-               padding: 10px;
-              border-radius: 5px;
-              background-color: #fff;
-             text-align: center;
-            cursor: pointer;}   
-.mw .fg button:hover{
-    box-shadow: 3px 4px 1px #797c7a;
-                        color: #929693;}          
+
 
  .rap .art{transition: transform 1.3s;
            flex-shrink: 0;}   
- .rap .art:hover{transform: translate(0,-10%)scale(1.2);}          
+ .rap .art:hover{transform: translate(0,-10%)scale(1.2);}      
+ 
+ 
+
+
+
+
 .section5{background: url(imgs/new.jfif) no-repeat;
     background-attachment: fixed;
     background-size: cover;

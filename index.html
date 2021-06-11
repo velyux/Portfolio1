@@ -190,22 +190,106 @@
            <div data-aos="fade-up"
            data-aos-duration="3000">
             <div  class="elips i01"> </div>
-                <a href="#">ARTS<br>미술프로젝트</a>
+                <button onclick="showPopup1(false)">ARTS<br>미술프로젝트</button>
             </div>
        
       <div data-aos="fade-down"
       data-aos-easing="linear"
       data-aos-duration="1500">
         <div class="elips i02"></div>
-       <a href="#">CRAFT<br>공예페어</a> 
+       <button  type="button" onClick="document.getElementById('mw_temp').style.display='block'">CRAFT<br>공예페어</button> 
       </div>
         <div data-aos="fade-up"
         data-aos-duration="3000">
             <div class="elips i03"></div>
-           <a href="#">CAMP</a> 
+           <button type="button" onClick="document.getElementById('mw_camp').style.display='block'">CAMP<br>크래프트 캠프</button> 
         </div>
            
        </div>
+       <div id="popup" class="hide">
+        <div class="content">
+           <div>
+               <h1>Art Museum Project News</h1>
+           </div>
+           
+
+            <div class="rap">
+               <div class="art bg01"></div>
+               <div class="art bg02"></div>
+               <div class="art bg03"></div>
+             
+            </div>
+
+            <p> 기 간 : 2021.09.08(수) ~ 2021.10.17.(일) / 40일간<br>
+                운영시간 : 10:00 ~ 18:00<br>
+                참여기관 : 청주시 內 등록된 미술관 및 박물관 7개소<br>
+                2019 미술관 프로젝트 둘러보기 ▶ https://www.okcj.org/bbs/content.php?co_id=menu01010701</p>
+
+
+
+          <button onclick="closePopup()">
+            Close
+            </button>
+        </div>
+      </div>
+  
+      <div id="mw_temp" class="mw">
+          <div class="bg"></div>
+        <div class="content fg">
+           <div>
+               <h1>Craft Fair News</h1>
+           </div>
+           
+
+            <div class="rap">
+               <div class="art bg04"></div>
+               <div class="art bg05"></div>
+               <div class="art bg06"></div>
+             
+            </div>
+
+            <p> 기 간 : 2021.09.08(수) ~ 2021.10.17(일) 40일간<br>
+                운영시간 : 10:00 ~ 19:00<br>
+                내 용 <br>
+                ‧ 전통공예 제작 과정 시연 및 체험  
+                ‧ 전통공예 작품 전시 
+                ‧ 작가 초청 특별 강연 </p>
+
+
+
+          <button onclick="document.getElementById('mw_temp').style.display='none'" type="button">
+            Close
+            </button>
+        </div>
+      </div>
+      
+      <div id="mw_camp" class="mw">
+        <div class="bg"></div>
+      <div class="content fg" >
+         <div>
+             <h1>Craft Camp News</h1>
+         </div>
+         
+
+          <div class="rap">
+             <div class="art bg07"></div>
+             <div class="art bg08"></div>
+             <div class="art bg09"></div>
+           
+          </div>
+
+          <p> <b>"지역 공예의 영역 확장을 위한 비엔날레의 글로벌 프로젝트"</b><br><br>
+            기 간 : 2021. 09.08(수) ~ 2021.10.17.(일) <br>
+            - 충북 지역 참여작가 모집 : 4~5월 중 예정  * 공식 홈페이지 및 SNS '공지사항' 확인<br>
+            내 용 : 충북 & 해외 공예작가 공동 작품 창작 워크숍</p>
+
+
+
+        <button onclick="document.getElementById('mw_camp').style.display='none'" type="button">
+          Close
+          </button>
+      </div>
+    </div>
 
    </div>
 

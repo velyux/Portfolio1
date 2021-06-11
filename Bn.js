@@ -108,4 +108,36 @@ $(document).scroll(function() {
     }
 });
 
-//sub1page
+function showPopup1(hasFilter) {
+	const popup = document.querySelector('#popup');
+  
+  if (hasFilter) {
+  	popup.classList.add('has-filter');
+  } else {
+  	popup.classList.remove('has-filter');
+  }
+  
+  popup.classList.remove('hide');
+}
+
+function closePopup() {
+	const popup = document.querySelector('#popup');
+  popup.classList.add('hide');
+}
+
+// function showPopup2(hasFilter) {
+// 	const popup = document.querySelector('#camp');
+  
+//   if (hasFilter) {
+//   	popup.classList.add('has-filter');
+//   } else {
+//   	popup.classList.remove('has-filter');
+//   }
+  
+//   popup.classList.remove('hide');
+// }
+
+// function closePopup() {
+// 	const popup = document.querySelector('#camp');
+//   popup.classList.add('hide');
+// }

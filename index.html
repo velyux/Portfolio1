@@ -6,44 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biennale</title>
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="vegas.css">
-    <link rel="stylesheet" type="text/css" href="bn.css">
+    <link rel="stylesheet" href="css/vegas.css">
+    <link rel="stylesheet" type="text/css" href="css/bn.css">
+    <link rel="stylesheet" media="all and (max-width: 640px)" href="css/Mbn.css">
 </head>
 <body>
    <header>
      <div class="top slide-content">
     <div class="inner circle ">
+        <span class="logo"><img src="imgs/logo_03.png" alt="logo"></span>
+        <span class="fas fa-bars mMenuBt"></span>
+        
         <div  class="gnb">
-            <span><img src="imgs/logo_03.png" alt="logo"></span>
+            
+           <div>
             <span>청주공예비엔날레조직위원회</span>
-            <span>청주공예비엔날레</span>
-            <span>전통공예비엔날레</span>
-            <span>열린마당</span>
-            <span>조직위원회 소개</span>
-            <span>press</span>
+            <span class="off" data-id="snb01">청주공예비엔날레</span>
+            <span data-id="snb02">전통공예비엔날레</span>
+            <span data-id="snb03">열린마당</span>
+            <span data-id="snb04">조직위원회 소개</span>
+            <span data-id="snb05">press</span>
+            <span class="fas fa-times mCloseBt"></span>
+           </div>
+            
+
             <div class="gnbsuball">
                 <ul>
-                    <li>
+                    <li class="off" id="snb01">
                         <ul>
                             <li>청주공예비엔날레</li>
                             <li>전통공예비엔날레</li>
                         </ul>
                     </li>
-                    <li>
+                    <li id="snb02">
                         <ul>
                             <li>전통공예페스티발</li>
                             <li>역대 청주공예페어</li>
                         </ul>
                     </li>
-                    <li>
+                    <li id="snb03">
                         <ul>
                             <li>공지사항</li>
                             <li>경영공시</li>
                         </ul>
                     </li>
-                    <li>
+                    <li id="snb04">
                         <ul>
                             <li>인사말</li>
                             <li>연혁</li>
@@ -173,7 +182,14 @@
   <div class="info inner">
       <h1>지금 청주 공예비엔날레는?</h1>
       <div class="youtube">
-          <div><iframe width="900" height="500" src="https://www.youtube.com/embed/FdPt94Ir2fE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+          <div>
+              <iframe width="900" height="500"
+             src="https://www.youtube.com/embed/FdPt94Ir2fE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div>
+                <iframe width="100%" height="400"
+               src="https://www.youtube.com/embed/FdPt94Ir2fE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
       </div>
   </div>
 
@@ -215,9 +231,15 @@
            
 
             <div class="rap">
-               <div class="art bg01"></div>
-               <div class="art bg02"></div>
-               <div class="art bg03"></div>
+               <div class="art bg01">
+                   <img src="imgs/t-1.PNG" alt="">
+               </div>
+               <div class="art bg02">
+                   <img src="imgs/t-2.PNG" alt="">
+               </div>
+               <div class="art bg03">
+                   <img src="imgs/t-3.PNG" alt="">
+               </div>
              
             </div>
 
@@ -243,9 +265,15 @@
            
 
             <div class="rap">
-               <div class="art bg04"></div>
-               <div class="art bg05"></div>
-               <div class="art bg06"></div>
+               <div class="art bg04">
+                   <img src="imgs/t2-1.PNG" alt="">
+               </div>
+               <div class="art bg05">
+                   <img src="imgs/t2-2.PNG" alt="">
+               </div>
+               <div class="art bg06">
+                   <img src="imgs/t2-3.PNG" alt="">
+               </div>
              
             </div>
 
@@ -273,9 +301,15 @@
          
 
           <div class="rap">
-             <div class="art bg07"></div>
-             <div class="art bg08"></div>
-             <div class="art bg09"></div>
+             <div class="art bg07">
+                 <img src="imgs/t3-1.PNG" alt="">
+             </div>
+             <div class="art bg08">
+                 <img src="imgs/t3-2.PNG" alt="">
+             </div>
+             <div class="art bg09">
+                 <img src="imgs/t3-3.png" alt="">
+             </div>
            
           </div>
 
@@ -316,7 +350,7 @@
          <div class="m2">
             <ul>
                 <li><b>[공지]</b> 2021청주공예비엔날레 크래프트 캠프공예가 모집 기....        2021-5-27</li>
-                <li><b>[안내/notice]</b> 2021 Cheongju interna... 2021-5-21</li>
+                <li><b>[안내]</b> 2021 Cheongju interna... 2021-5-21</li>
                 <li><b>[채용] </b>2021 청주공예비엔날레 기간제근로자 최종 합격자 발표       2021-5-21</li>
                 <li><b>[안내]</b> 2021 청주공예비엔날레 사전 학술행사 D-100기념...            2021-5-20</li>
                 <li><b>[채용]</b> 2021 청주공예비엔날레 기간제근로자 서류전형 합격자...      2021-5-18</li>
@@ -368,10 +402,18 @@
         <li data-id="fade3">Cooperation</li>
         <li data-id="fade4">Sponsor</li>
     </ul>
-    <div id="fade1" class="conBox cb1"></div>
-    <div id="fade2" class="conBox cb2"></div>
-    <div id="fade3" class="conBox cb3"></div>
-    <div id="fade4" class="conBox cb4"></div>
+    <div id="fade1" class="conBox cb1">
+        <img src="imgs/COMP.PNG" alt="">
+    </div>
+    <div id="fade2" class="conBox cb2">
+        <img src="imgs/media.PNG" alt="">
+    </div>
+    <div id="fade3" class="conBox cb3">
+        <img src="imgs/cooper.PNG" alt="">
+    </div>
+    <div id="fade4" class="conBox cb4">
+        <img src="imgs/sponsor.PNG" alt="">
+    </div>
 </div>
 </div>
 <footer>
@@ -392,8 +434,8 @@
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="vegas.js"></script>
-    <script src="Bn.js"> </script>
+    <script src="javascript/vegas.js"></script>
+    <script src="javascript/Bn.js"> </script>
 
 
 

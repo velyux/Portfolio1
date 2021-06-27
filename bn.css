@@ -222,56 +222,56 @@ height: 30px;}
 .art1 .slide.s01{
    
 
-    background: url(imgs/2019.PNG)no-repeat;
+    background: url(../imgs/2019.PNG)no-repeat;
      
     
 }
 
-.art1 .slide.s02{background: url(imgs/2017.PNG)no-repeat;
+.art1 .slide.s02{background: url(../imgs/2017.PNG)no-repeat;
 }
-.art1 .slide.s03{background: url(imgs/2015.PNG)no-repeat;
+.art1 .slide.s03{background: url(../imgs/2015.PNG)no-repeat;
     }
-.art1 .slide.s04{background: url(imgs/2013.PNG)no-repeat;
+.art1 .slide.s04{background: url(../imgs/2013.PNG)no-repeat;
     } 
-.art1 .slide.s05{background: url(imgs/2011.PNG)no-repeat;
+.art1 .slide.s05{background: url(../imgs/2011.PNG)no-repeat;
     } 
-.art1 .slide.s06{background: url(imgs/2009.PNG)no-repeat;
+.art1 .slide.s06{background: url(../imgs/2009.PNG)no-repeat;
     } 
-.art1 .slide.s07{background: url(imgs/2007.PNG)no-repeat;
+.art1 .slide.s07{background: url(../imgs/2007.PNG)no-repeat;
     } 
-.art1 .slide.s08{background: url(imgs/2005.PNG)no-repeat;
+.art1 .slide.s08{background: url(../imgs/2005.PNG)no-repeat;
     } 
-.art1 .slide.s09{background: url(imgs/2003.PNG)no-repeat;
+.art1 .slide.s09{background: url(../imgs/2003.PNG)no-repeat;
     } 
-.art1 .slide.s10{background: url(imgs/2001.PNG)no-repeat;
+.art1 .slide.s10{background: url(../imgs/2001.PNG)no-repeat;
     } 
-.art1 .slide.s11{background: url(imgs/1999.PNG)no-repeat;
+.art1 .slide.s11{background: url(../imgs/1999.PNG)no-repeat;
     }                        
 
-.art1 .slide.t01{background: url(imgs/aki1.PNG)no-repeat;}    
-.art1 .slide.t02{background: url(imgs/aki2.PNG)no-repeat;}    
-.art1 .slide.t03{background: url(imgs/aki3.PNG)no-repeat;}    
-.art1 .slide.t04{background: url(imgs/aki4.PNG)no-repeat;}    
-.art1 .slide.t05{background: url(imgs/aki5.PNG)no-repeat;}    
-.art1 .slide.t06{background: url(imgs/aki6.PNG)no-repeat;}    
-.art1 .slide.t07{background: url(imgs/aki7.PNG)no-repeat;}    
-.art1 .slide.t08{background: url(imgs/aki8.PNG)no-repeat;}    
-.art1 .slide.t09{background: url(imgs/aki9.PNG)no-repeat;}    
-.art1 .slide.t10{background: url(imgs/aki10.PNG)no-repeat;}    
+.art1 .slide.t01{background: url(../imgs/aki1.PNG)no-repeat;}    
+.art1 .slide.t02{background: url(../imgs/aki2.PNG)no-repeat;}    
+.art1 .slide.t03{background: url(../imgs/aki3.PNG)no-repeat;}    
+.art1 .slide.t04{background: url(../imgs/aki4.PNG)no-repeat;}    
+.art1 .slide.t05{background: url(../imgs/aki5.PNG)no-repeat;}    
+.art1 .slide.t06{background: url(../imgs/aki6.PNG)no-repeat;}    
+.art1 .slide.t07{background: url(../imgs/aki7.PNG)no-repeat;}    
+.art1 .slide.t08{background: url(../imgs/aki8.PNG)no-repeat;}    
+.art1 .slide.t09{background: url(../imgs/aki9.PNG)no-repeat;}    
+.art1 .slide.t10{background: url(../imgs/aki10.PNG)no-repeat;}    
 
-.art1 .slide.e01{background: url(imgs/eb1.PNG)no-repeat;}    
-.art1 .slide.e02{background: url(imgs/eb2.PNG)no-repeat;}    
-.art1 .slide.e03{background: url(imgs/eb3.PNG)no-repeat;}    
-.art1 .slide.e04{background: url(imgs/eb4.PNG)no-repeat;}    
-.art1 .slide.e05{background: url(imgs/eb5.PNG)no-repeat;}    
-.art1 .slide.e06{background: url(imgs/eb6.PNG)no-repeat;}    
-.art1 .slide.e07{background: url(imgs/eb7.PNG)no-repeat;}    
-.art1 .slide.e08{background: url(imgs/eb8.PNG)no-repeat;}    
-.art1 .slide.e09{background: url(imgs/eb9.PNG)no-repeat;}    
-.art1 .slide.e10{background: url(imgs/eb10.PNG)no-repeat;}  
+.art1 .slide.e01{background: url(../imgs/eb1.PNG)no-repeat;}    
+.art1 .slide.e02{background: url(../imgs/eb2.PNG)no-repeat;}    
+.art1 .slide.e03{background: url(../imgs/eb3.PNG)no-repeat;}    
+.art1 .slide.e04{background: url(../imgs/eb4.PNG)no-repeat;}    
+.art1 .slide.e05{background: url(../imgs/eb5.PNG)no-repeat;}    
+.art1 .slide.e06{background: url(../imgs/eb6.PNG)no-repeat;}    
+.art1 .slide.e07{background: url(../imgs/eb7.PNG)no-repeat;}    
+.art1 .slide.e08{background: url(../imgs/eb8.PNG)no-repeat;}    
+.art1 .slide.e09{background: url(../imgs/eb9.PNG)no-repeat;}    
+.art1 .slide.e10{background: url(../imgs/eb10.PNG)no-repeat;}  
 
 
-.section3{background: url(imgs/yt.png)50% 50% no-repeat;
+.section3{background: url(../imgs/yt.png)50% 50% no-repeat;
           background-size: cover;
           width: 100%;
         height: 700px;
@@ -314,7 +314,7 @@ height: 30px;}
               transition: all 0.4s ease-in;
             } 
           
-.ridius .i01{background: url(imgs/i01.PNG)50% 50%no-repeat;
+.ridius .i01{background: url(../imgs/i01.PNG)50% 50%no-repeat;
                    background-size: cover;
                  
                 }
@@ -322,10 +322,10 @@ height: 30px;}
 .ridius .elips:hover{filter: none;
     -webkit-filter:none;}                
              
-.ridius .i02{background: url(imgs/i02.PNG)50% 50%no-repeat;
+.ridius .i02{background: url(../imgs/i02.PNG)50% 50%no-repeat;
                     background-size: cover;
                 margin-top: 150px;}                              
-.ridius .i03{background: url(imgs/i03.PNG)50% 50%no-repeat;
+.ridius .i03{background: url(../imgs/i03.PNG)50% 50%no-repeat;
                         background-size: cover;} 
                         
 .ridius>div>button{font-size: 1.2rem;
@@ -422,7 +422,7 @@ height: 30px;}
 
 
 
-.section5{background: url(imgs/new.jfif) no-repeat;
+.section5{background: url(../imgs/new.jfif) no-repeat;
     background-attachment: fixed;
     background-size: cover;
          width: 100%;

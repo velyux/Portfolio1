@@ -25,7 +25,7 @@ header h1{margin-top: 70px;
 
 header>div{width: 380px; height: 550px;
           border-radius: 230px 230px 0 0;
-          background:url(/imgs/ma2.png)center no-repeat;
+          background:url(../imgs/ma2.png)center no-repeat;
           margin: 80px auto;
         position: relative;}      
           
@@ -99,7 +99,7 @@ header>div::after{content: "";
         padding: 30px;}             
 .section2 {width: 100%;
           height: 780px;
-         background: url(/imgs/ma1.png) 50% 50% no-repeat;
+         background: url(../imgs/ma1.png) 50% 50% no-repeat;
          background-size: cover;
          
         position: relative;}  
@@ -113,7 +113,7 @@ header>div::after{content: "";
    }                   
 .section2 .photo{width: 450px; height: 450px;
     border-radius: 50%;
-    background:url(/imgs/bgimg_7.png)center no-repeat;
+    background:url(../imgs/bgimg_7.png)center no-repeat;
      background-size: cover;
     position:absolute;
     top: -200px;
@@ -137,7 +137,7 @@ header>div::after{content: "";
 .Tab ul{width: 380px; height: 430px;
             border-radius: 0 214px 0 0;
             /* background-color: #a2c4a0; */
-            background: url(/imgs/bgimg_5.png) top left no-repeat,#a2c4a0;
+            background: url(../imgs/bgimg_5.png) top left no-repeat,#a2c4a0;
             color: #f57124;
             font-size: 1.5rem;
             text-align: right;
